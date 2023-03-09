@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <fieldset>
+        <legend>ROSHDY<SUB>Store</SUB></legend>
+        <form action="../store/home/home.html" method="get">
+            <h2>Sign Up</h2><hr>
+            <div class="fullname">
+            <input type="text" placeholder="First Name...." required>
+            </div>
+            <div class="fullname">
+            <input type="text" placeholder="Last Name...." required>
+            </div>
+            <div>
+            <input type="email"  placeholder="Email...." required>
+            </div>
+            <div>
+            <input type="password" placeholder="Create Password..." required>
+            </div>
+            <div id="gender">
+                <label>Gender
+                    <select>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+            </div>
+            <div id="date">
+                <label>Date of birth:</label><br>
+                <input type="date" max="2010-12-31" min="1950-01-01" value="2010-12-31">
+            </div>
+            <div>
+                <input type="submit" value="Sign Up" class="signButton">
+            </div>
+            <a href="../login/Login.html">Already have an account?</a>
+        </form>
+    </fieldset>
+</body>
+</html>

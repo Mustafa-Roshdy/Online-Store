@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(31, 1, 46);
+}
+.head{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:rgb(143, 40, 240);
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
+table{
+    border-spacing:20px ;
+    text-align: center;
+    margin: auto;
+}
+th{
+    padding: 10px;
+    background-color:rgb(31, 1, 46);
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+#f1,#f2{
+    background-color:rgb(51, 3, 72);
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+#f1{
+    margin-bottom: 2%;
+}
+#f2{
+    height: 500px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+input{
+    margin-left: 92%;
+}

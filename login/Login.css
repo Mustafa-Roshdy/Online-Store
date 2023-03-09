@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(192, 142, 16);
+    background-blend-mode:luminosity;
+}
+fieldset{
+    box-shadow: 10px 10px 10px 10px black;
+    background-color:rgb(255, 255, 255) ;
+   text-align: center;
+   margin: 70px auto;
+   width: 20%;
+   height: 300px;
+   border-radius: 15px;
+}
+legend{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgb(161, 14, 14);
+}
+.input{
+    width: 90%;
+    margin-bottom: 3%;
+    height: 30px;
+    margin-top: 3%;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+}
+label,p{
+    font-size: large;
+    font-weight: bolder;
+}
+.ConfirmButton{
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgb(4, 4, 116);
+    color: aliceblue;
+    font-size: large;
+}
+a{
+    font-size: large;
+    text-decoration:none;
+}
